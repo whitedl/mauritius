@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Transcription of Mauritius Census Data</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; }
+        img { width: 90%; margin: 20px 0; display: block; }
+        h1, h2 { color: #2c3e50; }
+        p { line-height: 1.6; }
+    </style>
+</head>
+<body>
+
+<h1>Transcription of Mauritius Census Data</h1>
+
+<h2>Project Objective</h2>
+<p>
+    The goal of this project is to recreate a 2011 census map that identifies the major dominant religions in Mauritius by ward. 
+    The original map was only available via a <a href="https://www.reddit.com/r/MapPorn/comments/w6vl3j/religious_demographics_of_mauritius_the_only/" target="_blank">Reddit post</a>, 
+    and no official ward-level version was publicly published.
+</p>
+
+<h2>Primary Workflow</h2>
+<ol>
+    <li>Contact the Mauritius Census Department to request the official boundary file for wards.</li>
+    <li>Update the attribute table by manually transcribing religion data from the Reddit map image into an ArcGIS feature class.</li>
+    <li>Create a final visual representation of the data in ArcGIS Pro to reflect dominant religions by ward.</li>
+</ol>
+
+<h2>Supporting Images</h2>
+<figure>
+    <img src="reddit.png" alt="Original Reddit Map">
+    <figcaption style="text-align: center;">Original 2011 Religion Map from Reddit</figcaption>
+</figure>
+
+<figure>
+    <img src="wards.png" alt="Wards Data from Census Department">
+    <figcaption style="text-align: center;">Ward Boundary Data from Mauritius Census Department</figcaption>
+</figure>
+
+<figure>
+    <img src="final_map.png" alt="Recreated Map in ArcGIS Pro">
+    <figcaption style="text-align: center;">Final Map Created in ArcGIS Pro</figcaption>
+</figure>
+
+</body>
+</html>
